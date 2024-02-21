@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    
+    int count = 9;
+    int i = 10;
+    int product = count*i;
+    
+    while (i >= 1) {
+        printf("%d*%d = %d\n", count, i, product);
+        i--;
+    }
+    
+    return 0;
+}
